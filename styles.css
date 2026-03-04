@@ -53,10 +53,14 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-a, button, .cell, .hero-section .text .links a, 
-.skills-section .cells .cell, .contact-section .group .text {
-    transition: background-color 0.3s ease, color 0.3s ease, 
-                border-color 0.3s ease, box-shadow 0.3s ease;
+a,
+button,
+.cell,
+.hero-section .text .links a,
+.skills-section .cells .cell,
+.contact-section .group .text {
+    transition: background-color 0.3s ease, color 0.3s ease,
+        border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 nav .right {
@@ -64,17 +68,17 @@ nav .right {
     align-items: center;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'ubuntu', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -82,13 +86,13 @@ body{
     margin: 0 auto;
 }
 
-a{
+a {
     color: var(--link-color);
     text-decoration: none;
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,19 +106,19 @@ nav .left a {
     font-weight: 600;
 }
 
-nav .right a{
+nav .right a {
     color: var(--text-color);
     margin: 0 10px;
 }
 
-nav .right a:last-child{
+nav .right a:last-child {
     background-color: var(--text-color);
     color: var(--background-color);
     padding: 5px 15px;
     border-radius: 5px;
 }
 
-nav .right a span{
+nav .right a span {
     margin-left: 5px;
 }
 
@@ -122,7 +126,7 @@ nav .right a span{
     padding: 0 50px;
     margin: 50px 0;
     text-align: center;
-    justify-content: center ;
+    justify-content: center;
     margin-top: 150px;
 }
 
@@ -138,7 +142,7 @@ nav .right a span{
     margin-top: 120px;
     margin-bottom: 25px;
     font-size: 45px;
-    
+
 }
 
 .hero-section .text .links {
@@ -181,12 +185,10 @@ nav .right a span{
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(233, 84, 32, 0.2),
-        transparent
-    );
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(233, 84, 32, 0.2),
+            transparent);
     transition: left 0.5s ease;
 }
 
@@ -203,7 +205,7 @@ nav .right a span{
     transform: scale(1.2);
 }
 
-.skills-section{
+.skills-section {
     padding: 0 50px;
     margin-bottom: 100px;
     text-align: center;
@@ -214,13 +216,13 @@ nav .right a span{
 
 }
 
-.skills-section h2{
+.skills-section h2 {
     text-align: center;
     margin-bottom: 25px;
     font-size: 35px;
 }
 
-.skills-section .text{
+.skills-section .text {
     text-align: center;
     max-width: 1000px;
     margin: 0 auto;
@@ -265,12 +267,10 @@ nav .right a span{
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(233, 84, 32, 0.2),
-        transparent
-    );
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(233, 84, 32, 0.2),
+            transparent);
     transition: left 0.5s ease;
 }
 
@@ -304,7 +304,7 @@ nav .right a span{
     padding: 0 50px;
     margin-top: 120px;
     margin-bottom: 150px;
-    }
+}
 
 .contact-section h2 {
     font-size: 35px;
@@ -315,7 +315,7 @@ nav .right a span{
 }
 
 .contact-section .group {
-    display: flex; 
+    display: flex;
     gap: 50px;
     text-align: center;
     max-width: 800px;
@@ -336,14 +336,14 @@ nav .right a span{
 
 
 .contact-section .group {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 
-@media (max-width: 850px){
-        .hero-section .text h2{
-            font-size: 35px;
-        }
+@media (max-width: 850px) {
+    .hero-section .text h2 {
+        font-size: 35px;
+    }
 }
 
 
@@ -374,7 +374,7 @@ nav .right a span{
         font-size: 30px;
     }
 
-    .skills-section{
+    .skills-section {
         padding: 0 20px;
     }
 
@@ -383,8 +383,6 @@ nav .right a span{
     }
 
     .contact-section {
-    padding: 0 20px;
-  }
+        padding: 0 20px;
+    }
 }
-
- 
