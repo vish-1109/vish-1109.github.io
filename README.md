@@ -4,7 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-vish--1109.github.io-blueviolet?style=for-the-badge&logo=vercel)](https://vish-1109.github.io/)
 
-**Developer | Builder | Open Source Enthusiast**
+**Open Source Enthusiast**
 
 ---
 
